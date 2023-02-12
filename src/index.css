@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+  @apply bg-bg-card m-2 text-center dark:bg-darkbg-card py-6 rounded relative before:absolute before:content-[""] before:w-full before:h-1 before:top-0 before:left-0  overflow-hidden
+}
+.card-sm {
+  @apply bg-bg-card dark:bg-darkbg-card text-center py-6 px-4 rounded
+}
+.vh-100{
+  height: 100vh;
+}
